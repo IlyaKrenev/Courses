@@ -1,0 +1,64 @@
+label{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    
+}
+
+.MainStepper{
+    width: 920px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.First, .Second, .Third{
+    width: 310px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Lines{
+    position: absolute;
+    
+}
+
+.Line_one, .Line_two{
+    width: 12px;
+    height: 36px;
+    background-color: white;
+    position: absolute;
+    left: 301px;
+}
+
+.Line_one{
+    transform: rotate(-15deg);
+    top: -4px;
+}
+
+.Line_two{
+    transform: rotate(15deg);
+    top: 28px;
+}
+
+.First:focus, .Second:focus, .Third:focus{
+    background: linear-gradient(180deg, #2EA239 0%, #62FD71 50.52%, #2EA139 100%);
+}
+
+.First:focus, .Second:focus, .Third:focus label{
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}

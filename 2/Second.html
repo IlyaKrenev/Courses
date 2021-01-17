@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>SecondTask</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="Second.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <form action="" method="POST" class="MainForm">
+        <h1>Регистрация</h1>
+
+        <div class="Devider"></div>
+
+         <div class="Data">
+            <div class="Fields">
+                <label>E-mail</label>
+                <input type="email" class="DataInput" name="email" maxlength="50" placeholder="  example@site.domain" required>
+            </div>
+
+             <div class="Passwords">
+                 <div>
+                 <label>Пароль</label>
+                 <input type="password" class="DataInput" name="password" maxlength="30" placeholder="  password" required>
+                </div>
+                <div>
+                <label>Повторите пароль</label>
+                <input type="password" class="DataInput" name="secondpassword" maxlength="30" placeholder="  password" required>
+                </div>
+            </div>
+
+            <div class="Fields">
+                <label>ФИО</label>
+                <input type="text" class="DataInput" name="FIO" maxlength="50" placeholder="  Игорев Игорь Игоревич" required>
+            </div>
+
+            <div class="Fields">
+                <label>Возраст</label>
+                <input type="number" class="DataInput" style="width: 49%"; name="Number" maxlength="50" placeholder="  18" required>
+            </div>
+        </div>   
+
+        <div class="Devider"></div>
+
+        <div class="Controls">
+            <input type="submit" class="Send" name="Send" value="Отправить">
+            <input type="reset" class="Cancel" name="Cancel" value="Отмена">
+        </div>
+    </form>
+</body>
+
+</html> 

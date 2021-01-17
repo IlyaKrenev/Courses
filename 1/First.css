@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.MainBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 358px;
+    height: 196px;
+    background: #CCCCCC;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 10px 20px; 
+    align-self: stretch;
+    margin: 0px 0px;
+    color: #000000;
+}
+
+.Item p{
+    display: flex;
+    position: static;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.Item:hover{
+    background: #9C9C9C;
+}
+
+.Item:focus{
+    background: #584d6d;
+    color: white;
+}
+
+.Item:active{
+    background: #8775a8;
+    color: rgb(151, 151, 151);
+}
