@@ -28,8 +28,8 @@ function addToArray() {
     let arrNew = [];
     for (let i = 0; i<length; i++){
         arrNew[i+iNew]=arr[i];
-        if (arr[i]==0) check++;
-        if (check%2 == 0 && arr[i] == 0) {
+        //if (arr[i]==0) check++;
+        if (i%2 == 0 && arr[i] == 0) {
             iNew++;
             arrNew[i+iNew]=-1;
         }
