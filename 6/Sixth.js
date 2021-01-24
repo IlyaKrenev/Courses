@@ -96,4 +96,6 @@ let model = [
       }
     }
 
-    console.log(newArr);
+    const util = require('util')
+
+    console.log(util.inspect(newArr, {showHidden: false, depth: null}))
